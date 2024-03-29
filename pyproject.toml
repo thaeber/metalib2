@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "metalib2"
+version = "0.1.0"
+description = ""
+authors = ["thaeber <thomas.haeber@kit.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+omegaconf = "^2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
