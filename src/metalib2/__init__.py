@@ -1,5 +1,5 @@
 # set package version
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from .metadata import Metadata, MetadataNode
 from .queries import query
