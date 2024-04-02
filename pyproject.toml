@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["thaeber <thomas.haeber@kit.edu>"]
 readme = "README.md"
+packages = [
+    { include = "metalib2", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10"
